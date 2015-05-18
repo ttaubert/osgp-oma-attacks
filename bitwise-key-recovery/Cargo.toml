@@ -1,0 +1,10 @@
+[package]
+name = "bitwise-key-recovery"
+version = "0.0.1"
+authors = ["Tim Taubert <tim@timtaubert.de>"]
+
+[dependencies.osgp-oma-digest]
+git = "https://github.com/ttaubert/osgp-oma-digest.git"
+
+[dependencies.rand]
+rand = "0.3"
